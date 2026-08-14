@@ -1,8 +1,7 @@
 CREATE DATABASE projeto;
-
 USE projeto;
-
-CREATE TABLE usuario(
-    INT id PRIMARY KEY,
-    VARCHAR(50) name,
+CREATE TABLE utilizador(
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    password VARCHAR(50)
 );
