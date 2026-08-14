@@ -2,7 +2,7 @@ CREATE DATABASE projeto;
 
 USE projeto;
 
-CREATE TABLE utilizador(
+CREATE TABLE usuario(
     INT id PRIMARY KEY,
     VARCHAR(50) name,
 )
